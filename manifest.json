@@ -3,7 +3,8 @@
     "name": "Reddit Redirect",
     "version": "1.0",
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "webNavigation"
     ],
     "background": {
       "service_worker": "background.js"
